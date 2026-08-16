@@ -1,4 +1,4 @@
-var WHATSAPP_NUMBER = '919876543210';
+var WHATSAPP_NUMBER = '918523097286';
 
 function toggleMenu(open) {
   var nav = document.getElementById('navLinks');
