@@ -53,6 +53,10 @@ function handleSubmit(e) {
 
   window.open('https://wa.me/' + WHATSAPP_NUMBER + '?text=' + msg, '_blank');
   alert('Thank you! Your request has been sent. We will call you back shortly.');
+
+  if (typeof gtag === 'function') {
+    gtag('event', 'conversion', { 'send_to': 'AW-18384417418/stykCOCkyOMcEIrlr75E' });
+  }
 }
 
 document.addEventListener('DOMContentLoaded', function () {
