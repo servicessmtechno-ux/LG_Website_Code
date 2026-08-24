@@ -86,6 +86,28 @@ img { max-width: 100%; display: block; }
 }
 .topbar span { display: inline-flex; align-items: center; gap: 6px; }
 
+/* ===== Disclaimer Banner ===== */
+.disclaimer-banner {
+  background: var(--light);
+  color: var(--dark);
+  font-size: 13px;
+  padding: 12px 0;
+  border-bottom: 1px solid #d6d2c8;
+}
+.disclaimer-banner .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.disclaimer-banner p {
+  margin: 0;
+  text-align: center;
+  line-height: 1.5;
+}
+.disclaimer-banner strong {
+  color: var(--primary);
+}
+
 header {
   background: var(--white);
   position: sticky;
